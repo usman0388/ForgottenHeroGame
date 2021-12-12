@@ -30,7 +30,7 @@ namespace ForgottenHeroGame
             
             try
             {
-                soundPlayer.SoundLocation = "music.wav";
+                soundPlayer.SoundLocation = "../../Resources/music.wav";
                 soundPlayer.PlayLooping();
             }catch(Exception e)
             {
